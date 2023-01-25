@@ -4,6 +4,7 @@ intelligent desktop voice assistant using python
 Then open command prompt in the directory where you have stored the source code and run the following command
 
 pip3 install -r requirements.txt
-python3 app.py
+
+python app.py
 
 Wait for sometime for the program to start running(Note: On running it for the first time it will downoad some models which will take some time)
