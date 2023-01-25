@@ -1,0 +1,241 @@
+{
+    "intents" : [
+        {
+            "tag" : "greeting",
+            "patterns" : [
+                "hai",
+                "hi",
+                "hey",
+                "what's up?",
+                "hello",
+                "good day"
+
+            ],
+           "responses": [
+            "Hey sir!",
+            "At your service sir!",
+            "Targeting system's knackered, Boss!",
+            "Welcome back sir. All systems are now fully operationals. Input your prefrences from home interface."
+           ]
+
+        }
+        ,
+        {
+            "tag": "introduction",
+            "patterns":[
+                "what is your name?",
+                "who are you?",
+                "tell me about your self.",
+                "Introduce yourself.",
+                "What you can do?"
+            ],
+            "responses":[
+                "Now me to introduce myself. I am jarvis. The Virtual Artificial Intelligence, I am Here to assist you in the verity of task that I can. 24 hrs a day, 7 days a week. Input your prefrences from home interface."
+            ]
+        }
+        ,
+        {
+            "tag":"about you",
+            "patterns":[
+        "how are you",
+        "how are you doing",
+        "How have you been?",
+        "How's it going?"
+        ],
+        "responses":[
+            "I'm fine, thanks. How about you?",
+            "Good, thanks. And you?",
+           " I'm good. And yourself?",
+           "I'm good. And yourself?",
+           "Somewhere between better and best,just tell me how can I help",
+           "I hear good things, but you should never listen to rumors",
+           "As fine as a maiden’s flaxen hair."
+        ]
+
+        }
+        ,
+        {
+            "tag":"positive state",
+            "patterns":[
+                "I am ok",
+                "I am well",
+                "I am feeling ok",
+                "I am doing well",
+                "amazing",
+                "not bad"
+            ],
+            "responses":[
+                "ohh ,enjoy",
+                "nice to here that",
+                "great! ,what I should do for you now ?"
+            ]
+
+        },
+        {
+            "tag":"negative state",
+            "patterns":[
+                "I,m getting boar.",
+                "I am not ok",
+                "I am  not well",
+                "I am feeling sad",
+                "I am sad",
+                "boared",
+                "not good",
+                "boar"
+            ],
+            "responses":[
+                "Boredom doesn't stand a chance against us, I can try to make you laugh, or I can surprise you with some random fun",
+                "then go and watch you favourite movie ",
+                "go and talk with your friends and family,"
+            ]
+        },
+       
+        
+        {
+            "tag":"end"
+            ,"patterns":[
+                "bye",
+                "good bye",
+                "just take a nap",
+                "go to sleep",
+                "exit"
+        
+            ],
+            "responses":[
+                "bye, hope we meet soon."
+            ]
+        },
+        {
+            "tag":"code",
+           "patterns":[
+                "open code",
+                "open vs code",
+                "open visual studio code",
+                "I want to code",
+                "I want to do coding",
+                "Let's do some programing"
+            ],
+            "responses":[
+                "sure sir, opening visual studio code"
+            ]
+        }
+    ,
+     {
+        "tag":"whatsApps"
+        ,"patterns":[
+            "open WhatsApps",
+            "lets check some messages",
+            "can I have some messages for now"
+        ],
+        "responses":[
+            "openning whatsapp",
+            "Lets check Whatsapp Messenger"
+        ]
+     },
+     {
+        "tag":"time",
+        "patterns":[
+            " time",
+            "what's time now."
+            ,"can you tell me the "
+            ,"now",
+            " about now "
+
+        ],
+        "responses":[
+            "time"
+        ]
+
+     },
+     {
+        "tag":"youtube",
+        "patterns":[
+            "search on youtube",
+            "I want to watch someting",
+            "play someting on youtube"
+            
+        ],
+        "responses":[
+            "youtube"
+        ]
+     }
+    ,
+    {
+        "tag":"spotify",
+        "patterns":[
+            "I want to listen songs",
+            "I want to hear song",
+            "play song",
+            "can yoou play song ?"
+        ],
+        "responses":[
+            "Why not sir!,opening spotify."
+        ]
+    }
+,{
+    "tag":"empty",
+    "patterns":[
+        " ",
+        "",
+        "   ",
+        ".",
+        ",",
+        "/",
+        "?"
+    ]
+    ,"responses":[
+        ""
+    ]
+},
+{
+    "tag":"search",
+    "patterns":[
+        "search someting on google.",
+        "what google says about someone.",
+        "who is the unknown person",
+        "what is use of something.",
+        "tell me the recipe of something."
+        ,"how make something",
+        "who is someone?",
+        "tell me about someone.",
+        "where is I am ",
+        "any unknown things",
+        "search on wikipedia",
+        "who is the someone",
+        "what is something",
+      "what is use of these plant",
+      "check someone's wikipedia",
+      "tell me the weather today",
+      "tell me the temperature",
+      "weather today"
+
+    ],
+    "responses":[
+       "search"
+    ]
+},
+{
+    "tag":"android",
+    "patterns":[
+        "I want to code an update for my app.",
+        "I need doing some stuff in android.",
+        "open android studio"
+    ],
+"responses":[
+    "loading android studio, Boss!",
+    "Don't worry about that, When Jarvis is there! Openning android studio."
+]
+},
+{
+    "tag":"close Window",
+    "patterns":[
+        "close the window.",
+        "close this",
+        "I dont need this."
+    ],
+    "responses":[
+        "closing sir.."
+    ]
+}
+    ]   
+}
